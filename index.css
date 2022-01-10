@@ -1,98 +1,104 @@
-body{
-background-color: lightgrey;
+body {
+  background-color: lightgrey;
 }
-a{
-    text-decoration: none;
-    color: black;
-}
-@media all  and (max-width: 800px) {
-    .evans{
-        display: none;
-    }
-    .dagi{
-        display: none;
-    }
-  }
- 
-#navbar{
-    position: fixed;
-  top: 0px;
-  width: 100%;
-    height: 120px;
-    background-color: black;
-    color:white;
-}
-#logo{
-    float: left;
-}
-.center{
-    text-align: center;
-}
-.float-right{
-    float: right;
-}
-.evans{
-    padding-top: 0px auto;
-    object-fit: cover;
-    height: 150px;
-    border-radius: 50%;
-}
-.dagi{
-    object-fit: cover;
-    height: 150px;
-    border-radius: 50%;
 
+a {
+  text-decoration: none;
+  color: black;
 }
-#welcome-section{
-    height: 100vh;
+
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 120px;
+  background-color: black;
+  color: white;
 }
-.welcome{
-padding-top: 200px;
-font-size: 100px;
-background-image: url(https://miro.medium.com/max/680/1*3zwzu2fFptPl1223zYQfiA.jpeg);
-background-color: black;
+
+#logo {
+  float: left;
 }
-.projects{
+
+.center {
+  text-align: center;
+}
+
+.float-right {
+  float: right;
+}
+
+.evans {
+  padding-top: 0;
+  object-fit: cover;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.dagi {
+  object-fit: cover;
+  height: 150px;
+  border-radius: 50%;
+}
+
+#welcome-section {
+  height: 100vh;
+}
+
+.welcome {
+  padding-top: 200px;
+  font-size: 100px;
+  background-image: url(https://miro.medium.com/max/680/1*3zwzu2fFptPl1223zYQfiA.jpeg);
+  background-color: black;
+}
+
+.projects {
   background-color: white;
   height: 330px;
   max-width: 960px;
   margin: 0 auto;
-  padding:20px;
+  padding: 20px;
   margin-top: 10px;
 }
-.project-tile{
-    height: 150px;
-    width: 31%;
-    margin: 10px;
-    float: left;
-    background-color: lightgrey;
+
+.project-tile {
+  height: 150px;
+  width: 31%;
+  margin: 10px;
+  float: left;
+  background-color: lightgrey;
 }
-.iconify{
-    font-size: 35px;
-    color: white;
+
+.iconify {
+  font-size: 35px;
+  color: white;
 }
-.icon{
-    font-size: 200px;
-   color: black;
-   text-align: center;
+
+.icon {
+  font-size: 200px;
+  color: black;
+  text-align: center;
 }
-#profile{
-    background-color: black;
+
+#profile {
+  background-color: black;
   height: 200px;
   max-width: 960px;
   margin: 0 auto;
-  padding:20px;
+  padding: 20px;
   margin-top: 10px;
 }
-#profile-link{
-    height: 200px;
-    margin: 10px;
-    float: left;
-    background-color: lightgrey; float: left;
-    width: 46%;
-    color: black;
-border-radius: 10%;
+
+.profile-link {
+  background-color: #eee;
+  height: 200px;
+  margin: 10px;
+  float: left;
+  width: 46%;
+  color: black;
+  border-radius: 10%;
 }
-.white{
-    color: white;
+
+.white {
+  color: white;
 }
